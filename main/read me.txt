@@ -1,0 +1,5 @@
+Due to memory size limitations of Github, we couldn't upload our model to the repository. 
+
+Instead, we uploaded the video demonstration and model in Google Drive. 
+
+Here's the link: https://drive.google.com/drive/folders/1WA5g7TOjO26_JTEXnW3t4FzpdWBuDTt3?usp=drive_link 
