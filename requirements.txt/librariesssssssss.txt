@@ -1,7 +1,0 @@
-opencv-python
-cvzone
-numpy
-tensorflow
-keras
-matplotlib
-seaborn
