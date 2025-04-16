@@ -51,6 +51,13 @@ base_model = ResNet50(weights='imagenet', include_top=False, input_shape=(IMG_HE
 for layer in base_model.layers:
     layer.trainable = True
 
+base_model = ResNet50(weights='imagenet', include_top=False, input_shape=(IMG_HEIGHT, IMG_WIDTH, 3))
+
+for layer in base_model.layers[:-50]:
+    layer.trainable = False
+for layer in base_model.layers[-50:]:
+    layer.trainable = True
+
 model = tf.keras.Sequential([
     data_augmentation,
     layers.Lambda(tf.keras.applications.resnet50.preprocess_input),
