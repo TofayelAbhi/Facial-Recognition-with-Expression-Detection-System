@@ -38,7 +38,7 @@ Facial expressions are a non-verbal way humans communicate emotions. Recognizing
 | Google Colab       | Training with GPU support           |
 | Matplotlib         | Visualization of results            |
 
-## 📈 Results
+## Results
 
 - Best accuracy: **76%** (after tuning ResNet50)
 - Overfitting occurred when all layers were unfrozen
